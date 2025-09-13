@@ -3,9 +3,12 @@ Character similarity calculation (MATLAB)
 
 아래와 같이 한 책(‘test’)에서 얻어진 글자들이 서브 폴더로 들어가 있는 폴더가 “C:\~~\test”일 때, simchar 내 calcBinCharSimSubfolders.m을 실행한다.
 -	글자 영상을 담고 있는 서브 폴더만 있어야 함
+  
 ![폴더 구조](images/img1.png)
 
 Sims = calcBinCharSimSubfolders( ‘C:\~~\test’ )
+
+![실행 예](images/img2.png)
 
 얻어진 Sims는 셀배열로, 행이 글자 폴더 개수만큼 있고, 3열이 들어가 있다.
 1열에는 각 글자 폴더 내 글자 영상끼리 서로 비교한 유사도 행렬이, 2열에는 사용된 글자 영상의 파일이름, 3열에는 서브 폴더명(위 예에서는 ‘U+4E0D_不’)이 들어간다.
