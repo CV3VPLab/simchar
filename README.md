@@ -1,0 +1,2 @@
+# simchar
+Character similarity calculation
