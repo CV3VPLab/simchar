@@ -1,5 +1,4 @@
-# simchar
-Character similarity calculation (MATLAB)
+# simchar : Character similarity calculation (MATLAB)
 
 아래와 같이 한 책(‘test’)에서 얻어진 글자들이 서브 폴더로 들어가 있는 폴더가 “C:\~~\test”일 때, simchar 내 calcBinCharSimSubfolders.m을 실행한다.
 -	글자 영상을 담고 있는 서브 폴더만 있어야 함
