@@ -4,6 +4,7 @@
 -	글자 영상을 담고 있는 서브 폴더만 있어야 함
 
 *폴더 구조*
+
 ![폴더 구조](images/img1.png)
 
 
@@ -12,16 +13,16 @@
 Sims = calcBinCharSimSubfolders( ‘C:\~~\test’ )
 ```
 
-![실행 예](images/img2.png)
-
 *실행 예*
+
+![실행 예](images/img2.png)
 
 얻어진 Sims는 셀배열로, 행이 글자 폴더 개수만큼 있고, 3열이 들어가 있다.
 1열에는 각 글자 폴더 내 글자 영상끼리 서로 비교한 유사도 행렬이, 2열에는 사용된 글자 영상의 파일이름, 3열에는 서브 폴더명(위 예에서는 ‘U+4E0D_不’)이 들어간다.
 
-![결과 예](images/img3.png)
-
 *결과 예*
+
+![결과 예](images/img3.png)
 
 calcBinCharSimSubfolders 함수 안에서 각 서브 폴더마다 calcBinCharSimFolder 함수를 호출
 
