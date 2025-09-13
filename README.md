@@ -6,7 +6,7 @@ Character similarity calculation (MATLAB)
   
 ![폴더 구조](images/img1.png)폴더 구조
 
-Sims = calcBinCharSimSubfolders( ‘C:\~~\test’ )
+`Sims = calcBinCharSimSubfolders( ‘C:\~~\test’ )`
 
 ![실행 예](images/img2.png)실행 예
 
